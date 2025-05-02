@@ -94,44 +94,6 @@ function GenericBrandDetails() {
                   ))}
                 </tbody>
               </Table>
-
-              {/* 
-              <Accordion defaultActiveKey="0" id="accordionExample">
-                {brands.map((brand, index) => (
-                  <Accordion.Item eventKey={String(index)} key={index}>
-                    <Accordion.Header>
-                      <div className="d-flex">
-                        {brand.imageurl === "no_image.png" ? (
-                          <strong className="no-image">{brand.brand}</strong>
-                        ) : (
-                          <img
-                            src={`https://sales.alkemcrm.com/sd_new/brandimages/${brand.imageurl}`} // Replace with actual image path or fallback
-                            alt={`${brand.brand} logo`}
-                            style={{
-                              height: "40px",
-
-                              objectFit: "cover",
-                            }}
-                          />
-                        )}
-                      </div>
-                    </Accordion.Header>
-                    <Accordion.Body>
-                      {brands[index].products.map((product, index) => (
-                        <div className="accr_inner_text">
-                          <ul>
-                            <li>
-                              <strong>{product.product_name}</strong>
-                              <strong> - </strong>
-                              {product.composition}
-                            </li>
-                          </ul>
-                        </div>
-                      ))}
-                    </Accordion.Body>
-                  </Accordion.Item>
-                ))}
-              </Accordion> */}
             </div>
           </div>
         </div>
