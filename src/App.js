@@ -4,6 +4,7 @@ import Home from "./component/Home";
 import EmployeeProfile from "./component/Employee-profile";
 import EmployeeProfileMob from "./component/Employee-profile-mob";
 import GenericBrandDetails from "./component/GenericBrandDetails";
+import ShowPdf from "./component/ShowPdf";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/profilemob/:employeeCode" element={<EmployeeProfileMob />}></Route>
         <Route path=":employeeCode" element={<Profile />}></Route>
         <Route path="/genericBrands" element={<GenericBrandDetails />}></Route>
+        <Route path="/invoice_view/param1/:invoiceno" element={<ShowPdf />}></Route>
       </Routes>
     </div>
   );
