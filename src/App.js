@@ -14,7 +14,7 @@ function App() {
         <Route path="/profilemob/:employeeCode" element={<EmployeeProfileMob />}></Route>
         <Route path=":employeeCode" element={<Profile />}></Route>
         <Route path="/genericBrands" element={<GenericBrandDetails />}></Route>
-        <Route path="/invoice_view/param1/:invoiceno" element={<ShowPdf />}> </Route>
+        <Route path="/invoice_view/param1/:invoiceno" element={<ShowPdf />}></Route>
       </Routes>
     </div>
   );
