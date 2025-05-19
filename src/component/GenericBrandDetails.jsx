@@ -67,8 +67,11 @@ function GenericBrandDetails() {
             </div>
 
             <span className="brand-title"></span>
-            <div className="row">
-              <Table className="table table-bordered">
+            <div className="row" style={{ overflow: "auto" }}>
+              <Table
+                className="table table-bordered"
+                style={{ margin: "10px", top: 0 }}
+              >
                 <thead
                   className="thead-light"
                   style={{
