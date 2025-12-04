@@ -54,20 +54,24 @@ function GenericBrandDetails() {
       {brands.length > 0 ? (
         <div className="bg-light1">
           <div className="container">
-            <div className="row p-4">
-              <div className="col-5 text-left">
+            <div className="row ">
+              {/* <div className="col-5 text-left">
                 <a className="navbar-brand" href="#">
                   <img src={logo} className="img-fluid" alt="" />
                 </a>
               </div>
               <div className="col-7 text-left">
                 <h1>Generic Products</h1>
-              </div>
+              </div> */}
+              <img src="/view_card/Generic Band.jpg" alt="My Image" />
             </div>
 
             <span className="brand-title"></span>
-            <div className="row">
-              <Table className="table table-bordered">
+            <div className="row" style={{ overflow: "auto" }}>
+              <Table
+                className="table table-bordered"
+                style={{ margin: "10px", top: 0 }}
+              >
                 <thead
                   className="thead-light"
                   style={{

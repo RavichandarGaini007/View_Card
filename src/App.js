@@ -5,6 +5,7 @@ import EmployeeProfile from "./component/Employee-profile";
 import EmployeeProfileMob from "./component/Employee-profile-mob";
 import GenericBrandDetails from "./component/GenericBrandDetails";
 import ShowPdf from "./component/ShowPdf";
+
 function App() {
   return (
     <div className="App">
