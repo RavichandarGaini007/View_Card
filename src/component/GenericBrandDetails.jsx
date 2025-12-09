@@ -55,14 +55,6 @@ function GenericBrandDetails() {
         <div className="bg-light1">
           <div className="container">
             <div className="row ">
-              {/* <div className="col-5 text-left">
-                <a className="navbar-brand" href="#">
-                  <img src={logo} className="img-fluid" alt="" />
-                </a>
-              </div>
-              <div className="col-7 text-left">
-                <h1>Generic Products</h1>
-              </div> */}
               <img src="/view_card/Generic Band.jpg" alt="My Image" />
             </div>
 
